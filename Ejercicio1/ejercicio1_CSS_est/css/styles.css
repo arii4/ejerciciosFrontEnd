@@ -11,24 +11,31 @@ body{
 	font-style:normal;
 }
 
+
 h1{
-	font-size:1.5em; /* */
+	font-size:1.5em;
 	text-align:center;
 }
 
+
 h3{
 	text-align:center;
+	font-style:normal;
+	font-size:1em;
+	letter-spacing:0.1em;
 }
 
 p{
 	text-align:center;
-	font-size:0.8em;
-	font-weight:1.5em;
+	font-size:0.9em;
+	font-weight:1.55em;
+	letter-spacing:0.1em;
 }
 
 ul{
-	font-size:0.8em;
-	font-weight:1.5em;
+	font-size:0.9em;
+	font-weight:1.55em;
+	letter-spacing:0.1em;
 }
 
 #container{
@@ -39,6 +46,21 @@ ul{
 	height:auto;
 	overflow:auto;
 	border-style:double;
+	border-color:#000000;
+	background-color:#ffffff;
+}
+#boxmenu{
+	width:600px;
+	margin: 30px auto;
+	padding:2px;
+	padding-bottom:10px;
+	position:relative;
+	height:relative;
+	overflow:auto;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-top-width:2px;
+	border-bottom-width:1px;
 	border-color:#000000;
 	background-color:#ffffff;
 }
@@ -58,9 +80,21 @@ ul{
 	margin: 10px;
 }
 
+.column2{
+	float:left;
+	width:80px;
+	margin:10px;
+}
+
 .center{
 	text-align:center;
 	float:center;
+}
+
+.on{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#000000;
 }
 
 .red{
@@ -71,6 +105,3 @@ ul{
 	font-style:bold;
 }
 
-.on{
-	text-transform:uppercase;
-}
