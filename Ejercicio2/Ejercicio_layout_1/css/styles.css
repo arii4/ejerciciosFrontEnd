@@ -1,6 +1,6 @@
 html, body{
-	margin-left:100px;
-	margin-right:100px;
+	margin-left:80px;
+	margin-right:80px;
 	padding:0;
 	border:1px;
 	border-color:red;
@@ -26,17 +26,30 @@ nav{
 	font-size:1em;
 	word-spacing:20px;
 }
+img{
+	margin:2px;
+	float:left;
+}
+footer {
+	clear:left;
+	background-color: #f4f4f4;
+	width: 100%;
+	padding:20px;
+}
 
 /*pregunta: porqué si quito a:visited me pone los enlaces lilas y no funciona a:link???;*/
 a:link{
 	color:##646464;
+	text-decoration:none;
 }
 a:visited{
 	color:#646464;
+	text-decoration:none;
 }
 a:hover{
 	color:white;
 	background-color:#646464;
+	text-decoration:none;
 }
 h1{
 	color:#fff;
@@ -51,7 +64,7 @@ h1{
 	background-color:#ccddff;
 	margin:10px;
 	float:left;
-	width:700px;
+	width:750px;
 }
 .maincontent{
 	border:1px solid #464646;
@@ -60,15 +73,30 @@ h1{
 	padding:20px;
 }
 
-.box{
-	width:300px;
+.columnas{
+	width:340px;
 	margin-left:20px;
 	float:left;
 }
+.items{
+	clear:left;
+}
+
+.images{
+	overflow:auto;
+	background-color:#ccddff;
+	margin-bottom:10px;
+	height:auto;
+}
+
 p{
 	font-size:0.8em;
 }
 aside{
-	margin-left:720px;
+	margin-left:780px;
 	border:1px solid green;
+}
+
+#enlace{
+	color:#4a91d1;
 }
