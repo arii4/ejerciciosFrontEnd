@@ -1,0 +1,75 @@
+html, body{
+	padding:0;
+	border-color:red;
+}
+
+body{
+	font-family:"Montserrat";
+	font-size:100;
+	font-style:normal;
+}
+
+header{
+	background-color:#464646;
+	position:fixed;
+	top:0px;
+	right:0px;
+	left:0px;
+	margin:0px;
+	padding-left:20px;
+	padding-bottom: 10px;
+	border:1px solid #464646;
+	color:white;
+	text-align:center;
+}
+
+nav{
+	position:fixed;
+	top:90px;
+	right:0px;
+	left:0px;
+	background-color:#000;
+	padding:10px;
+	padding-left:20px;
+	font-size:1em;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	color:white;
+}
+
+.menu:link{
+	float:left;
+	color:#646464;
+	padding:10px;
+	border-radius:4px;
+	text-decoration:none;
+}
+.menu:visited{
+	float:left;
+	color:#646464;
+	padding:10px;
+	border-radius:4px;
+	text-decoration:none;
+}
+.menu:hover{
+	float:left;
+	color:white;
+	background-color:#646464;
+	padding:10px;
+	border-radius:4px;
+	text-decoration:none;
+}
+
+footer{
+	background-color:red;
+	position:fixed;
+	width:auto;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	padding:5px;
+}
