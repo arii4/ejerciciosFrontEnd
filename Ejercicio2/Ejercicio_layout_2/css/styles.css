@@ -40,6 +40,14 @@ nav{
 	justify-content: center;
 	color:white;
 }
+.linkSelected{
+	float:left;
+	color:white;
+	background-color:#336422;
+	padding:10px;
+	border-radius:4px;
+	text-decoration:none;
+}
 
 .menu:link{
 	float:left;
@@ -64,9 +72,40 @@ nav{
 	text-decoration:none;
 }
 
-footer{
+#titulopagina{
+	text-align:center;
+	padding:30px 10px 20px 10px;
+}
+
+#leftContent{
+	float:left;
+	margin-left:150px;
+	width:800px;
 	background-color:red;
-	position:fixed;
+	padding-top:30px;
+	overflow:auto;
+	margin-bottom:30px;
+}
+
+#Imageprincipal{
+	height:400px;
+	width:800px;
+	background-color:blue;
+}
+
+#content{
+	margin-top:150px;
+}
+
+aside{
+	background-color:blue;
+	margin-left:1100px;
+	padding:30px 10px 30px 40px;
+}
+
+footer{
+	clear:left;
+	background-color:red;
 	width:auto;
 	bottom:0px;
 	right:0px;
