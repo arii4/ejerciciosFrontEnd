@@ -1,0 +1,170 @@
+html, body{
+	margin-left:95px;
+	margin-right:95px;
+	padding:0;
+	border:1px;
+	border-color:red;
+}
+
+body{
+	font-family:"Open Sans";
+	font-size:100;
+	font-style:normal;
+}
+
+header{
+	background-color:#464646;
+	margin:0px;
+	padding-left:20px;
+	padding-bottom: 20px;
+	border:1px solid #464646;;
+}
+
+h1{
+	color:#fff;
+}
+
+nav{
+	background-color:#000;
+	padding:10px;
+	padding-left:20px;
+	font-size:1em;
+	word-spacing:20px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+/*pregunta: porqué si quito a:visited me pone los enlaces lilas y no funciona a:link???;*/
+.menu:link{
+	float:left;
+	color:#646464;
+	padding:5px;
+	border-radius:4px;
+	text-decoration:none;
+}
+.menu:visited{
+	float:left;
+	color:#646464;
+	padding:5px;
+	border-radius:4px;
+	text-decoration:none;
+}
+.menu:hover{
+	float:left;
+	color:white;
+	background-color:#646464;
+	padding:5px;
+	border-radius:4px;
+	text-decoration:none;
+}
+
+#textfield{
+	/*pregunta:
+	Porque tengo que usar margin-top para que quede todo alineado si ya he alineado al centro?*/
+	margin-left:600px;
+	margin-top:2px;
+	float:left;
+	background-color:white;
+	padding-left:10px;
+	padding-right:120px;
+	border-radius:4px;
+	border:0px;
+	height:33px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.button {
+  background: #cccccc;
+  border-radius: 4px;
+  border:0px;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+
+#globalcontainer{
+	/*background-color:#ffcccc;*/
+	margin:10px auto;
+	overflow:auto;
+}
+
+#leftContent{
+	/*background-color:#ccddff;*/
+	margin:10px;
+	float:left;
+	width:750px;
+}
+
+#RectMainContent{
+	border:1px solid #464646;
+	border-radius:10px;
+	background-color:#f4f4f4;
+	padding:20px;
+}
+
+p{
+	font-size:0.8em;
+}
+
+.columns{
+	width:340px;
+	margin-left:20px;
+	float:left;
+}
+
+aside{
+	margin-left:780px;
+	/*border:1px solid green;*/
+}
+
+.imagesSection{
+	overflow:auto;
+	/*background-color:#ccddff;*/
+	margin-bottom:10px;
+	height:auto;
+}
+
+img{
+	margin:2px;
+	float:left;
+}
+
+.items{
+	color:black;
+	clear:left;
+	text-decoration:none;
+
+}
+
+footer {
+	clear:left;
+	background-color: #f4f4f4;
+	width: 100%;
+	padding:20px;
+}
+
+#enlace{
+	color:#4a91d1;
+	text-decoration:none;
+}
+
+
+
+
+
+
