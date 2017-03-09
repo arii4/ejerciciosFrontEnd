@@ -1,0 +1,122 @@
+html, body{
+	padding:0;
+	border-color:red;
+}
+
+body{
+	font-family:"Montserrat";
+	font-size:100;
+	font-style:normal;
+}
+
+header{
+	background-color:#464646;
+	position:fixed;
+	top:0px;
+	right:0px;
+	left:0px;
+	margin:0px;
+	padding-left:20px;
+	padding-bottom: 10px;
+	border:1px solid #464646;
+	color:white;
+	text-align:center;
+}
+
+nav{
+	position:fixed;
+	top:90px;
+	right:0px;
+	left:0px;
+	background-color:#000;
+	padding:10px;
+	padding-left:20px;
+	font-size:1em;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	color:white;
+}
+.linkSelected{
+	float:left;
+	color:white;
+	background-color:#336422;
+	padding:10px;
+	border-radius:4px;
+	text-decoration:none;
+}
+
+.menu:link{
+	float:left;
+	color:#646464;
+	padding:10px;
+	border-radius:4px;
+	text-decoration:none;
+}
+.menu:visited{
+	float:left;
+	color:#646464;
+	padding:10px;
+	border-radius:4px;
+	text-decoration:none;
+}
+.menu:hover{
+	float:left;
+	color:white;
+	background-color:#646464;
+	padding:10px;
+	border-radius:4px;
+	text-decoration:none;
+}
+
+#titulopagina{
+	text-align:center;
+	padding:30px 10px 20px 10px;
+}
+
+#leftContent{
+	float:left;
+	margin-left:150px;
+	width:800px;
+	background-color:#ffa9a9;
+	padding-top:30px;
+	overflow:auto;
+	margin-bottom:30px;
+}
+
+#Imageprincipal{
+	height:400px;
+	width:800px;
+	background-color:#a6d5ff;
+}
+
+#textoimagen{
+	text-align:center;
+	padding-top:40px;
+}
+
+#content{
+	margin-top:150px;
+}
+
+aside{
+	background-color:#f2a65a;
+	margin-left:1100px;
+	padding:30px 20px 30px 40px;
+}
+
+footer{
+	clear:left;
+	background-color:#afffab;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:0 auto;
+	padding:10px;
+	/*pregunta: no puedo mantenerlo fijo como el Header,
+	pero a continuación siempre del body? sin que tenga margenes blancos al rededor
+	y se mueva en horizontal como el body?*/
+}
