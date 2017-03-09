@@ -1,9 +1,9 @@
 html, body{
-	margin-left:95px;
-	margin-right:95px;
 	padding:0;
 	border:1px;
 	border-color:red;
+	width:1080px;
+	margin:0 auto;
 }
 
 body{
@@ -64,9 +64,9 @@ nav{
 
 #textfield{
 	/*pregunta:
-	Porque tengo que usar margin-top para que quede todo alineado si ya he alineado al centro?*/
+	Porque tengo que usar margin-top en safari para que quede todo alineado si ya he alineado al centro?*/
 	margin-left:600px;
-	margin-top:2px;
+	margin-right:2px;
 	float:left;
 	background-color:white;
 	padding-left:10px;
@@ -98,13 +98,11 @@ nav{
 
 
 #globalcontainer{
-	/*background-color:#ffcccc;*/
 	margin:10px auto;
 	overflow:auto;
 }
 
 #leftContent{
-	/*background-color:#ccddff;*/
 	margin:10px;
 	float:left;
 	width:750px;
@@ -129,7 +127,6 @@ p{
 
 aside{
 	margin-left:780px;
-	/*border:1px solid green;*/
 }
 
 .imagesSection{
