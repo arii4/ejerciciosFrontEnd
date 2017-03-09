@@ -81,7 +81,7 @@ nav{
 	float:left;
 	margin-left:150px;
 	width:800px;
-	background-color:red;
+	background-color:#ffa9a9;
 	padding-top:30px;
 	overflow:auto;
 	margin-bottom:30px;
@@ -90,7 +90,12 @@ nav{
 #Imageprincipal{
 	height:400px;
 	width:800px;
-	background-color:blue;
+	background-color:#a6d5ff;
+}
+
+#textoimagen{
+	text-align:center;
+	padding-top:40px;
 }
 
 #content{
@@ -98,17 +103,20 @@ nav{
 }
 
 aside{
-	background-color:blue;
+	background-color:#f2a65a;
 	margin-left:1100px;
-	padding:30px 10px 30px 40px;
+	padding:30px 20px 30px 40px;
 }
 
 footer{
 	clear:left;
-	background-color:red;
-	width:auto;
-	bottom:0px;
-	right:0px;
-	left:0px;
-	padding:5px;
+	background-color:#afffab;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:0 auto;
+	padding:10px;
+	/*pregunta: no puedo mantenerlo fijo como el Header,
+	pero a continuación siempre del body? sin que tenga margenes blancos al rededor
+	y se mueva en horizontal como el body?*/
 }
