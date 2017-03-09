@@ -1,8 +1,13 @@
 <!doctype html>
 <html>
 <head>
+    
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Carousel Example</title>
+	<link rel="stylesheet" href="css/example.css">
+  	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -12,8 +17,23 @@
         <img src="img/04.jpg" alt="foto">
         <img src="img/05.jpg" alt="foto">
         <img src="img/09.jpg" alt="foto">
+        <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      	<a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+
     </div>
 </div>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/jquery.slides.min.js"></script>
+<script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 600,
+        height: 300,
+        navigation: false
+      });
+    });
+  </script>
 </body>
 </html>
